@@ -1,10 +1,36 @@
-.video {
+body {
+	/* background-image: url("mem1.jpg"); */
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.jumbotron {
 	display: flex;
+	justify-content: center;
+	background-color: rgb(233,236,239, 0.0);
+	padding: 5px 10px 5px 10px;
+}
+
+.video {
+	margin-top: 40px;
 }
 
 #mc_embed_signup {
-	background: #fff;
+	background: #ffffff;
 	clear: left;
 	font: 14px Helvetica, Arial, sans-serif; 
-	width: 310px;
+	width: 400px;
+	font-family: inherit;
+	border: solid 1px #ffc107;
+	border-radius: 10px;
+}
+
+.navbar-brand {
+	height: 40px;
+}
+
+.logo {
+	height: 60px;
 }
