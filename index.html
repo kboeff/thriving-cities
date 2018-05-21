@@ -10,17 +10,54 @@
 
 
 	<title>Thriving cities</title>
-	<link rel='stylesheet' type='text/css' href='style.css'>
 	<link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+	<link rel='stylesheet' type='text/css' href='style.css'>
+	
 </head>
 <body>
+	<!-- Navbar start -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	  <a class="navbar-brand" href="#"><img class='logo' alt='logo' src='yellow-logo.png'></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
 
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
+		  <li class="nav-item">
+			<p> <span class="sr-only">(current)</span></p>
+		  </li>
+		  <li class="nav-item">
+			<p> <span class="sr-only">(current)</span></p>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Subscribe <span class="sr-only">(current)</span></a>
+		  </li>
+		</ul>
+		
+	  </div>
+	</nav>
+	<!-- Navbar end -->
+	
 	<div class="container"> 
+		<!-- Video jumbotron -->
 		<div class="video jumbotron">
 		<video id="video1" width="100%" height="100%" controls>
 			<source src="plane-vid.mp4" type="video/mp4">
 			Your browser does not support the video tag.
 		</video>
+		</div>
+		
+		<!-- Blog posts area - should include multiple posts with link / expandable -->
+		<div class="blog-post jumbotron">
+			<h2>Lorem ipsum<br><small class="text-muted">Blog post.</small></h2>
+			
 		</div>
 
 		<div class='sub-form jumbotron'>
@@ -28,21 +65,20 @@
 			<div id="mc_embed_signup">
 			<form action="https://cooltest.us18.list-manage.com/subscribe/post?u=5b19fda3c5249c56a5d2580ae&amp;id=0ab58057e2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 				<div id="mc_embed_signup_scroll">
-				<h2>Subscribe to our mailing list</h2>
-			<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+				<h2>Stay up to date<br><small class="text-muted">Subscribe to our mailing list for more fun events</small></h2>
 			<div class="mc-field-group">
-				<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+				<label for="mce-EMAIL">Email <small class="text-muted">(required)</small>
 			</label>
 				<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 			</div>
 			<div class="mc-field-group">
-				<label for="mce-FNAME">First Name </label>
+				<label for="mce-FNAME">Name </label>
 				<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
 			</div>
-			<div class="mc-field-group">
+			<!-- <div class="mc-field-group">
 				<label for="mce-LNAME">Last Name </label>
 				<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-			</div>
+			</div> -->
 				<div id="mce-responses" class="clear">
 					<div class="response" id="mce-error-response" style="display:none"></div>
 					<div class="response" id="mce-success-response" style="display:none"></div>
@@ -57,7 +93,7 @@
 		</div>
 
 	</div> 
-	 <!-- Optional JavaScript -->
+	<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
