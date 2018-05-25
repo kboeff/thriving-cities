@@ -6,6 +6,7 @@ body {
 	background-size: cover;
 }
 
+
 .jumbotron {
 	display: flex;
 	justify-content: center;
@@ -27,10 +28,50 @@ body {
 	border-radius: 10px;
 }
 
+.blog-title:hover {
+	cursor: pointer;
+	color: rgb(235,193,76);
+}
+
+button:focus {
+    outline: 5px auto rgb(235,193,76);
+}
+
 .navbar-brand {
 	height: 40px;
 }
 
 .logo {
 	height: 60px;
+}
+
+.my-video-dimensions {
+    width: 100%;
+    height: 100%;
+	padding-top: 56.25%;
+	margin-top: 20px;
+}
+
+.video-js {
+  /* The base font size controls the size of everything, not just text.
+     All dimensions use em-based sizes so that the scale along with the font size.
+     Try increasing it to 15px and see what happens. */
+  font-size: 10px;
+
+  /* The main font color changes the ICON COLORS as well as the text */
+  color: rgb(235,193,76);
+}
+
+/* Slider - used for Volume bar and Progress bar */
+.video-js .vjs-slider {
+  background-color: rgb(130,180,180);
+  background-color: rgb(130,180,180,0.5);
+}
+
+/* The slider bar color is used for the progress bar and the volume bar
+   (the first two can be removed after a fix that's coming) */
+.video-js .vjs-volume-level,
+.video-js .vjs-play-progress,
+.video-js .vjs-slider-bar {
+  background: rgb(235,193,76);
 }
