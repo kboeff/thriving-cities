@@ -1,11 +1,11 @@
+/*-----------------------general styling -----------------------------------*/
 body {
-	/* background-image: url("mem1.jpg"); */
+	background-image: url("mem1.jpg");
     background-color: #ffffff;
     background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 }
-
 
 .jumbotron {
 	display: flex;
@@ -14,18 +14,33 @@ body {
 	padding: 5px 10px 5px 10px;
 }
 
-.video {
-	margin-top: 40px;
+button:focus {
+    outline: 5px auto rgb(235,193,76);
 }
 
+/*---------------------mailChimp form ---------------------------------------*/
 #mc_embed_signup {
 	background: #ffffff;
 	clear: left;
 	font: 14px Helvetica, Arial, sans-serif; 
 	width: 400px;
 	font-family: inherit;
-	border: solid 1px #ffc107;
+	/* border: solid 1px #ffc107; */
 	border-radius: 10px;
+}
+
+/*--------------------navigation----------------------------------------------*/
+.navbar-brand {
+	height: 40px;
+}
+
+.logo {
+	height: 60px;
+}
+
+/*------------------blog posts----------------------------------------------*/
+.row {
+	background-color: #ffffff;
 }
 
 .blog-title:hover {
@@ -33,16 +48,9 @@ body {
 	color: rgb(235,193,76);
 }
 
-button:focus {
-    outline: 5px auto rgb(235,193,76);
-}
-
-.navbar-brand {
-	height: 40px;
-}
-
-.logo {
-	height: 60px;
+/*-------------------video-----------------------------------------------*/
+.video {
+	margin-top: 40px;
 }
 
 .my-video-dimensions {
@@ -53,12 +61,7 @@ button:focus {
 }
 
 .video-js {
-  /* The base font size controls the size of everything, not just text.
-     All dimensions use em-based sizes so that the scale along with the font size.
-     Try increasing it to 15px and see what happens. */
   font-size: 10px;
-
-  /* The main font color changes the ICON COLORS as well as the text */
   color: rgb(235,193,76);
 }
 
@@ -68,10 +71,9 @@ button:focus {
   background-color: rgb(130,180,180,0.5);
 }
 
-/* The slider bar color is used for the progress bar and the volume bar
-   (the first two can be removed after a fix that's coming) */
 .video-js .vjs-volume-level,
 .video-js .vjs-play-progress,
 .video-js .vjs-slider-bar {
   background: rgb(235,193,76);
 }
+/*------------------------------------------------------------------*/
