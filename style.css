@@ -42,12 +42,14 @@ button:focus {
 .row {
 	background-color: #ffffff;
 }
-
 .blog-title:hover {
-	cursor: pointer;
 	color: rgb(235,193,76);
 }
 
+.card:hover {
+	cursor: pointer;
+	
+}
 /*-------------------video-----------------------------------------------*/
 .video {
 	margin-top: 40px;
