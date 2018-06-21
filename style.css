@@ -50,6 +50,11 @@ button:focus {
 	cursor: pointer;
 	
 }
+
+#event2:hover {
+	background-image
+}
+
 /*-------------------video-----------------------------------------------*/
 .video {
 	margin-top: 40px;
