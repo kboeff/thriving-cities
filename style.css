@@ -1,6 +1,6 @@
 /*-----------------------general styling -----------------------------------*/
 body {
-	background-image: url("res/mem1.jpg");
+	background-image: "";
     background-color: #ffffff;
     background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -50,7 +50,7 @@ button:focus {
 	color: rgb(235,193,76);
 }
 
-.card:hover {
+.card:hover, .debug-btn {
 	cursor: pointer;
 }
 
