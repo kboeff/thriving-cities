@@ -7,6 +7,7 @@ var captionText = document.getElementById("caption");
 var modText = document.getElementById("mod-text");
 var modLink = document.getElementById("mod-link");
 
+
 // Additional text for the events
 const descriptions = ["<br>Opera Memphis’ sixth annual MIDTOWN OPERA FESTIVAL is coming to Playhouse on the Square April 6-14, 2018. The Festival is anchored by two evenings of opera, <em>The Triumph of Honor</em> and <em>The Opera 901 Showcase</em>. Each opera is preceded by an Opera Prelude Talk, providing insight into the story, characters, and music we'll experience. After the opera, the audience is invited to join us for in the Festival Lounge for a drink or head to one of the many Festival Fringe Events.<br>Surrounding the operas, we've curated a world of additional events, called Fringe Events, that are designed to deepen your experience, highlight something new, or expand the definition of what an opera festival can be. This year, the Fringe Event calendar features performances by Collage Dance Collective; the return of Aria Jukebox back by popular demand; Opera Takes Flight, in which aerialists perform to opera's greatest hits; and the ever-popular family event Cartoons & Cereal, featuring some of those great classic cartoons that introduced generations to the sound of opera.",
 "<br>Food truck selection varies each week. Enjoy extra seating and picnic tables, perfect weather, and live music throughout the year!",
@@ -51,4 +52,21 @@ var span = document.getElementsByClassName("close")[0];
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() { 
   modal.style.display = "none";
+}
+
+
+// Toggle background
+let groundOn = document.getElementById("ground-on");
+let groundOff = document.getElementById("ground-off");
+
+const changeGround = () => {
+	if(document.body.style.backgroundImage === "") {
+		document.body.style.backgroundImage = "url('res/mem1.jpg')";
+		groundOn.style.color = "#EBC14C";
+		groundOff.style.color = "#FFFFFF";
+	} else {
+		document.body.style.backgroundImage = "";
+		groundOff.style.color = "#EBC14C";
+		groundOn.style.color = "#FFFFFF";
+	}
 }
